@@ -1,0 +1,33 @@
+.ProductPagination {
+    @apply flex items-center gap-2 flex-wrap justify-center md:flex-nowrap select-none;
+
+    .pagination-item {
+        @apply w-7 h-7 xl:w-auto xl:h-auto flex items-center justify-center rounded-full text-sm xl:text-base xl:px-4 border border-transparent xl:py-2 xl:rounded xl:bg-MidGray lg:text-black font-medium 2xl:text-lg;
+
+
+    }
+
+    .active-link {
+        @apply text-white bg-Coral xl:bg-transparent xl:text-black xl:border-Coral;
+    }
+
+    .prev {
+        @apply w-5 h-5 xl:w-auto xl:h-auto rounded-full flex items-center justify-center relative xl:after:content-['Previous'] text-lg xl:text-base xl:px-5 xl:py-2 shrink-0 border xl:border-Coral xl:rounded xl:bg-Coral xl:text-white font-medium 2xl:text-lg;
+
+        .prevIcon {
+            @apply xl:hidden;
+        }
+    }
+
+    .disabled {
+        @apply opacity-70;
+    }
+
+    .next {
+        @apply w-5 h-5 xl:w-auto xl:h-auto rounded-full flex items-center justify-center relative xl:after:content-['Next'] text-lg xl:text-base xl:px-5 xl:py-2 shrink-0 border xl:border-Coral xl:rounded xl:bg-Coral xl:text-white font-medium 2xl:text-lg;
+
+        .nextIcon {
+            @apply xl:hidden;
+        }
+    }
+}

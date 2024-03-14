@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+span {
+    font-family: 'Rubik', sans-serif;
+}
+
+.site-container {
+    @apply px-4;
+}
+
+*,
+html {
+    scroll-behavior: smooth;
+    scrollbar-width: thin;
+}
+
+/* 
+.sliderDiv {
+    @apply ClipPathSlider;
+
+} */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    @apply leading-[120%];
+}
+
+p,
+button {
+    @apply text-sm md:text-base 2xl:text-lg;
+}
+
+.titleH1 {
+    @apply text-[24px] sm:text-[28px] md:text-[32px] lg:text-[36px] xl:text-[45px] 2xl:text-[50px];
+}
+
+.shadow-1 {
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.shadow-2 {
+    box-shadow: 0px 25px 35px 0px rgba(42, 167, 255, 0.15);
+}
+
+.swiper-pagination-bullet-active {
+    @apply !bg-Primary;
+}
+
+.mt-section {
+    @apply mt-8;
+}
+
+.py-section {
+    @apply py-12 lg:py-16 lg:pe-0 lg:ps-8 xl:py-24;
+}
+
+.swiper-button-prev {
+    @apply !text-Primary;
+
+
+}
+
+.swiper-button-next {
+    @apply !text-Primary;
+}
+
+.swiperPerViewAuto .swiper-slide {
+    @apply md:w-[70%];
+}

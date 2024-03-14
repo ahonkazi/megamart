@@ -1,0 +1,22 @@
+.similarProductSlider {
+    .swiper-pagination {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .swiper-pagination-bullet {
+        height: 10px;
+        width: 10px;
+        border-radius: 100%;
+        background-color: #FFDACE;
+        opacity: 1;
+
+        &.swiper-pagination-bullet-active {
+            height: 15px;
+            width: 15px;
+            border-radius: 100%;
+            background-color: #FF6534;
+        }
+    }
+}
